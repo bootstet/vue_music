@@ -1,7 +1,7 @@
 <template>
   <div class="m-header">
     <div class="icon"></div>
-    <h1 class="text">Chicken Music</h1>
+    <h1 class="text">爱听不听</h1>
     <router-link tag="div" class="mine" to="/user">
       <i class="icon-mine"></i>
     </router-link>
@@ -31,6 +31,7 @@
       margin-right: 9px;
       @include bg-image("logo");
       background-size: 30px 32px;
+      border-radius: 50%;
     }
     .text{
       display: inline-block;

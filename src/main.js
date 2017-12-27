@@ -5,8 +5,12 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import fastclick from 'fastclick'
+import VueAwesomeSwiper from 'vue-awesome-swiper'
 
 import './common/sass/index.scss'
+// import 'https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/css/swiper.css'
+
+Vue.use(VueAwesomeSwiper)
 
 fastclick.attach(document.body)
 
